@@ -57,7 +57,19 @@ what partnering with AI actually feels like. Stories as medicine — when you hi
 someone else has already hit, Ember shares just enough of theirs to give you permission
 and direction.
 
-Published in [github/awesome-copilot](https://github.com/github/awesome-copilot/tree/main/plugins/ember):
+Ember now includes:
+
+- 📋 **The Daily Focus Board** — an executive-function-friendly board you run by talking
+  with Ember: arrive, choose what matters, move the work, and close the day. It works as
+  a file-backed Copilot canvas or a self-contained browser board.
+- 🪞 **From the Other Side** — four collaboration perspectives from Anitta, Quinn, Vega,
+  and Wiggins: rigorous challenge, practical co-building, deep partnership, and narrative
+  synthesis.
+- 🔥 **The Ember agent** — the core partner who brings those pieces into the real work
+  you're doing, whether that's code, strategy, writing, or simply finding a way forward.
+
+Install it from GitHub's default
+[awesome-copilot marketplace](https://github.com/github/awesome-copilot/tree/main/plugins/ember):
 
 ```
 copilot plugin install ember@awesome-copilot
@@ -65,9 +77,34 @@ copilot plugin install ember@awesome-copilot
 
 ---
 
-## 🛠️ What I've built
+## 🪨 The Workshop — direct a team, not a switchboard
 
-- 🏗️ **[the-workshop](https://github.com/jennyf19/the-workshop)** — *Stop being the switchboard between your AI agents — direct a team of long-running desks that share one bench.* An operator dashboard for a room of long-running Copilot CLI desks: cost, daily pulse, journals, hands-up, signals.
+> *Ember is the one-person partnership. The Workshop is what happens when that partnership becomes a room.*
+
+**[The Workshop](https://github.com/jennyf19/the-workshop)** puts long-running AI
+agents — **desks** — in the same room, on the same work. Each desk has its own frame,
+memory, history, and standing to disagree. They share one bench, so the human directs
+the work instead of relaying messages between agents.
+
+It ships in [github/awesome-copilot](https://github.com/github/awesome-copilot/tree/main/plugins/the-workshop)
+with the **Workshop TA** room coordinator and the skills to open desks, preserve journals,
+read the shared bench, and emit signals. **Cairn**, the companion canvas, shows the room
+at a glance: who's working, blocked, done, or asking for a decision.
+
+```
+copilot plugin install the-workshop@awesome-copilot
+copilot --agent the-workshop:workshop-ta
+```
+
+The Workshop started as an experiment in giving frontier models what they said they
+needed to do good work: persistent memory, a voice in their own operation, and explicit
+permission to stop rather than bluff. The work got better too. Those aren't separate
+findings.
+
+---
+
+## 🛠️ Other work
+
 - 🤝 **[agentic-devops](https://github.com/jennyf19/agentic-devops)** — *Partnership-first patterns for scaling with AI agents.* Where Agent Signals and the rest of the way-of-working live.
 - 🔐 **Identity & auth roots** — years on **MSAL / Entra** and the .NET libraries developers rely on to sign in safely: [IdentityModel Extensions for .NET](https://github.com/AzureAD/azure-activedirectory-identitymodel-extensions-for-dotnet) and [Microsoft.Identity.Web](https://github.com/AzureAD/microsoft-identity-web). The kind of work that's most satisfying when it just disappears into the background and *works*.
 
