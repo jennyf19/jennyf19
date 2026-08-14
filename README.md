@@ -103,6 +103,26 @@ findings.
 
 ---
 
+## 📦 Sealed Delegation — local work, frontier judgment
+
+> *Give a local model one bounded job. Keep the final decision in Copilot.*
+
+**[Sealed Delegation](https://github.com/jennyf19/sealed-delegation)** lets a Copilot session
+hand a local model a sealed packet: one task, only the files you chose, a tiny tool surface,
+and a separate check before anything is trusted. The local child prepares a proposal. Copilot
+keeps authority.
+
+It is a research preview for bounded, independently verifiable work — not autonomous local
+development, and not a savings claim. Validated on ARM64 and x64 with a narrow qualified route.
+
+```
+git clone https://github.com/jennyf19/sealed-delegation
+cd sealed-delegation
+pwsh .\run-checks.ps1 -SkipLive
+```
+
+---
+
 ## 🛠️ Other work
 
 - 🤝 **[agentic-devops](https://github.com/jennyf19/agentic-devops)** — *Partnership-first patterns for scaling with AI agents.* Where Agent Signals and the rest of the way-of-working live.
